@@ -1,10 +1,30 @@
-body{
-    display: flex;
-    flex-direction: row;
+.pinturas .pintura {
+    width: 335px;
+    height: 431px;
+    position:relative
+}
+
+.pinturas .pintura img {
+    width: 100%;
+}
+
+.pinturas .pintura .informacoes {
+    position: absolute;
+    color: white;
+    bottom: 40px;
+    left: 20px;
+}
+
+.pinturas .pintura .informacoes .titulo {
+    font-size: 30px;
 
 }
 
-.imagens {
-    width: 335px;
-    height: 431;
+main{
+    display: flex;
+    flex-direction: row;
+} 
+
+section{
+    display: flex;
 }
