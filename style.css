@@ -1,0 +1,10 @@
+body{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.imagens {
+    width: 335px;
+    height: 431;
+}
